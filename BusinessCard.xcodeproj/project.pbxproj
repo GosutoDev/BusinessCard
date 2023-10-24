@@ -11,6 +11,8 @@
 		A86F8F022AE7E1F500447C77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F8F012AE7E1F500447C77 /* ContentView.swift */; };
 		A86F8F042AE7E1FA00447C77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86F8F032AE7E1FA00447C77 /* Assets.xcassets */; };
 		A86F8F072AE7E1FA00447C77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86F8F062AE7E1FA00447C77 /* Preview Assets.xcassets */; };
+		A86F8F0E2AE7E25B00447C77 /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A86F8F0D2AE7E25B00447C77 /* DancingScript-Regular.ttf */; };
+		A86F8F112AE7E6BE00447C77 /* PressStart2P-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A86F8F102AE7E6BE00447C77 /* PressStart2P-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		A86F8F012AE7E1F500447C77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A86F8F032AE7E1FA00447C77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A86F8F062AE7E1FA00447C77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A86F8F0D2AE7E25B00447C77 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Regular.ttf"; sourceTree = "<group>"; };
+		A86F8F0F2AE7E29700447C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A86F8F102AE7E6BE00447C77 /* PressStart2P-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PressStart2P-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,9 @@
 		A86F8EFE2AE7E1F500447C77 /* BusinessCard */ = {
 			isa = PBXGroup;
 			children = (
+				A86F8F0F2AE7E29700447C77 /* Info.plist */,
+				A86F8F0D2AE7E25B00447C77 /* DancingScript-Regular.ttf */,
+				A86F8F102AE7E6BE00447C77 /* PressStart2P-Regular.ttf */,
 				A86F8EFF2AE7E1F500447C77 /* BusinessCardApp.swift */,
 				A86F8F012AE7E1F500447C77 /* ContentView.swift */,
 				A86F8F032AE7E1FA00447C77 /* Assets.xcassets */,
@@ -125,8 +133,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86F8F112AE7E6BE00447C77 /* PressStart2P-Regular.ttf in Resources */,
 				A86F8F072AE7E1FA00447C77 /* Preview Assets.xcassets in Resources */,
 				A86F8F042AE7E1FA00447C77 /* Assets.xcassets in Resources */,
+				A86F8F0E2AE7E25B00447C77 /* DancingScript-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +285,7 @@
 				DEVELOPMENT_TEAM = 6A744UV7PU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BusinessCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +315,7 @@
 				DEVELOPMENT_TEAM = 6A744UV7PU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BusinessCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
